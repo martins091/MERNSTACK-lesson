@@ -1,0 +1,12 @@
+/* CSS Properties and Values
+Explanation: Properties define what aspect of an element you want to style 
+(e.g., color, background, margin), and values specify the desired setting.
+Common properties include color, font-size, width, height, padding, margin, 
+border, and background. */
+
+h1 {
+    color: navy; /* Text color */
+    font-size: 24px; /* Font size */
+    margin: 10px; /* Margin around the element */
+  }
+  

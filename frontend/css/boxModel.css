@@ -1,0 +1,14 @@
+/* Explanation: The box model represents the structure of a web page element, 
+which includes: Content: The actual content inside the box (text or image).
+Padding: Clears an area around the content (inside the element).
+Border: A line surrounding the padding.
+Margin: Clears an area outside the border (space between elements). */
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+  }
+  

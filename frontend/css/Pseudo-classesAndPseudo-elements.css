@@ -1,0 +1,12 @@
+/* Explanation:
+Pseudo-classes: Define special states of elements, like :hover, :focus, or :nth-child.
+Pseudo-elements: Select specific parts of an element, like ::before, ::after, and ::first-letter. */
+
+a:hover {
+    color: red; /* Change link color when hovered */
+  }
+  
+  p::first-letter {
+    font-size: 200%;
+    color: blue;
+  }

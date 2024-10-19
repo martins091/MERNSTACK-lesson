@@ -1,0 +1,23 @@
+/* Selectors
+Explanation: Selectors define which HTML elements a set of CSS rules apply to.
+Universal Selector (*): Applies to all elements.
+Element Selector (p): Selects elements based on their tag name.
+Class Selector (.class-name): Selects elements with a specific class attribute.
+ID Selector (#id-name): Selects a single element with a specific ID.
+Attribute Selector ([type="text"]): Selects elements based on an attribute. */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    color: red;
+  }
+  .intro {
+    font-size: 16px;
+    color: gray;
+  }
+  #main-heading {
+    text-align: center;
+  }
+  

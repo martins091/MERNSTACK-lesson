@@ -1,0 +1,20 @@
+/* Explanation: A layout model that allows easy alignment and distribution of 
+space among items in a container.
+display: flex;: Activates flexbox for the container.
+justify-content: Controls horizontal alignment.
+align-items: Controls vertical alignment.
+flex-direction: Specifies the direction of flex items (row, column). */
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 200px;
+    border: 1px solid black;
+  }
+  .flex-item {
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+  }
+  

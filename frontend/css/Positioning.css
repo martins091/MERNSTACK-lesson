@@ -1,0 +1,24 @@
+/* Positioning
+Explanation: CSS positioning determines the placement of elements on the page.
+Static: The default position; elements are positioned according to the normal flow of the document.
+Relative: Positioned relative to its normal position.
+Absolute: Positioned relative to its nearest positioned ancestor.
+Fixed: Positioned relative to the browser window.
+Sticky: A hybrid of relative and fixed positioning. */
+
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+  .absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+  .fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  } 

@@ -1,0 +1,16 @@
+/* Explanation: Variables allow you to store values to reuse them throughout your CSS.
+Syntax: Define a variable with --variable-name and use it with var(--variable-name). */
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--secondary-color);
+  }
+  

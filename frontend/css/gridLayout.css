@@ -1,0 +1,19 @@
+/* Explanation: CSS Grid is a two-dimensional layout system that allows you to 
+create complex layouts with rows and columns.
+
+display: grid;: Activates the grid layout for the container.
+grid-template-columns: Defines the columns in the grid.
+grid-template-rows: Defines the rows in the grid.
+gap: Sets the spacing between rows and columns. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns with different widths */
+    grid-template-rows: 100px 200px; /* Two rows with different heights */
+    gap: 10px;
+  }
+  .grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  

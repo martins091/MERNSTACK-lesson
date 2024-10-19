@@ -1,0 +1,40 @@
+<!-- Forms are used to collect user input and contain elements like 
+<input>, <textarea>, <select>, and <button>. -->
+
+<form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea>
+
+  <input type="submit" value="Submit">
+</form>
+
+<!-- action specifies the URL to send the form data to.
+      method specifies the HTTP method (e.g., POST or GET).  -->
+
+
+<!-- <input type="text">: Text field.
+<input type="password">: Password field.
+<input type="checkbox">: Checkbox.
+<input type="radio">: Radio button.
+<input type="submit">: Submit button.
+<input type="file">: File upload field. 
+-->
+
+
+<form>
+  <input type="text" placeholder="Enter your name">
+  <input type="password" placeholder="Enter your password">
+  <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+  <label for="subscribe">Subscribe to newsletter</label>
+
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+  <input type="file" name="upload">
+  <input type="submit" value="Submit">
+</form>

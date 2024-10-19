@@ -1,0 +1,25 @@
+/* Explanation: Ensuring the layout adjusts and looks good on different screen sizes.
+Use media queries to define breakpoints for different screen sizes.
+Utilize relative units like percentages, em, rem, and viewport units (vw, vh). */
+
+.responsive-box {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 768px) {
+    .responsive-box {
+      width: 50%;
+    }
+  }
+  
+  /* Media query for desktops */
+  @media (min-width: 1024px) {
+    .responsive-box {
+      width: 25%;
+    }
+  }
+  
+  

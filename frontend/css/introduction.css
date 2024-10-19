@@ -1,0 +1,23 @@
+/* Definition: CSS (Cascading Style Sheets) is used to style and layout web pages — for example, 
+change the color of text, the spacing between paragraphs, how columns are sized and laid out, 
+and other visual aspects.
+
+Types of CSS:
+Inline CSS: Written directly in the HTML element using the style attribute.
+Internal CSS: Written inside a <style> tag in the <head> section of an HTML file.
+External CSS: Written in a separate .css file and linked using the <link> tag. */
+
+ /* Inline CSS Example
+<p style="color: blue; font-size: 18px;">This is a blue paragraph.</p>
+
+ Internal CSS Example
+<style>
+  p {
+    color: green;
+    font-size: 20px;
+  }
+</style>
+
+External CSS Example
+<link rel="stylesheet" href="styles.css"> */
+
