@@ -6,17 +6,20 @@ Utilize relative units like percentages, em, rem, and viewport units (vw, vh). *
     width: 100%;
     padding: 20px;
     background-color: lightgray;
+    display: flex;
+    flex-direction: row;
   }
   
   /* Media query for tablets */
   @media (min-width: 768px) {
     .responsive-box {
       width: 50%;
+      
     }
   }
   
-  /* Media query for desktops */
-  @media (min-width: 1024px) {
+  /* Media query for mobile */
+  @media (min-width: 300px) {
     .responsive-box {
       width: 25%;
     }

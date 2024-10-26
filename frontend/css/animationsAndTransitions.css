@@ -1,30 +1,55 @@
-/* Explanation: CSS transitions and animations add visual effects to elements.
-Transition: Smoothly changes property values over a specified duration.
-Animation: Create complex sequences of movements or changes. */
+/* Transition */
 
-/* Transition Example */
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    transition: background-color 0.5s ease;
+.btn {
+  transition-property: transform; /* Specifies which property to apply the transition to */
+  transition-duration: 0.3s; /* Duration of the transition */
+  transition-timing-function: ease; /* Timing function of the transition */
+  transition-delay: 0s; /* Delay before the transition starts */
+}
+
+.btn:hover {
+  transform: translate(-10px); /* Move the element 10px to the left when hovered */
+}
+
+.btn {
+  transition: transform 0.3s ease 0s;
+}
+
+.btn:hover {
+  transform: translate(-10px);
+}
+
+
+
+/* Animation */
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-300%);
   }
-  
-  .box:hover {
-    background-color: blue;
+  to {
+      transform: translateX(0);
   }
-  
-  /* Animation Example */
-  @keyframes bounce {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-30px); }
-    100% { transform: translateY(0); }
+}
+
+.btn {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-300%);
   }
-  
-  .animated-box {
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    animation: bounce 1s infinite;
+  to {
+      transform: translateX(0);
   }
-  
+}
+
+.btn {
+  animation: slideInLeft 1s ease-in 1 normal forwards;
+}
